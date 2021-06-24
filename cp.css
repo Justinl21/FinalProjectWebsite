@@ -1,0 +1,150 @@
+body {
+    background-color: #000000;
+    background-image: url(images/VFsfaP.jpg);
+    color: #f2f2f2;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(images/VFsfaP.jpg);
+}
+
+#wrapper {
+    background-color: #FEF6C2;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #666666;
+}
+
+header {
+    background-color: #cccccc;
+    height: 120px;
+    background-image: url(images/metal.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 2.5em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+nav a {
+    color:gold;
+    text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: green;
+  }
+  
+footer {
+    background-color: #cccccc;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px #221811 solid;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+h4 {
+    background-color: #d2B48C;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    padding-left: 5px;
+    padding-right: 40px;
+    float: left;
+}
+
+img.home{
+    float: right;
+    width:30%;
+}
+
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 500px;
+    padding: 10px;
+  }
+  textarea {
+    height: 200px;
+  }
+  
+  button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+  dl.top {
+    position:absolute; 
+    left:35%; 
+    top:40%;
+  }
+
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:2;
+}
